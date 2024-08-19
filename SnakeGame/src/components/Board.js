@@ -21,8 +21,8 @@ const styles = StyleSheet.create({
     flexWrap: "wrap",
     position: "absolute",
     marginHorizontal: BORDER,
-},
-pixel: {
+  },
+   pixel: {
     width: PIXEL,
     height: PIXEL,
     borderColor: colors.p6,
@@ -30,8 +30,8 @@ pixel: {
     borderRadius: BORDER_RADIUS,
     backgroundColor: colors.p5,
     justifyContent: "center",
-    alignItems: "center"
-},
+    alignItems: "center",
+  },
 });
 
 export default Board

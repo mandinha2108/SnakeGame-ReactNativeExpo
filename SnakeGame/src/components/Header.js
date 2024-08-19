@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import {colors} from "../styles/theme";
+import { colors } from "../styles/theme";
 import { HEADER_HEIGHT } from "../consts";
 import Ionicons from "@expo/vector-icons/Ionicons";
 
@@ -16,10 +16,10 @@ const Header = ({top, score, paused, pause, reload}) => {
     return (
         <View style={[styleHeader, styles.header]}>
             <TouchableOpacity onPress={reload}>
-                <IonIcons names="reload" size={26} color={colors.p6} />
+                <Ionicons names="reload" size={26} color={colors.p6} />
             </TouchableOpacity>
             <TouchableOpacity onPress={pause}>
-                <IonIcons
+                <Ionicons
                   name={paused ? "play": "pause"}
                   size={26}
                   color={colors.p6}

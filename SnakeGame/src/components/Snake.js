@@ -13,8 +13,8 @@ import {
 const Snake = ({ snake, top }) => {
   return (
     <>
-     {snake.map((node, index) => {
-      const nodeSyle = {
+    {snake.map((node, index) => {
+      const nodeStyle = {
         width : PIXEL,
         height: PIXEL,
         borderWidth: GAP,
@@ -31,8 +31,8 @@ const Snake = ({ snake, top }) => {
           key={index}
         />
       );
-      })}
-   </>
+    })}
+  </>
   )
 }
 
