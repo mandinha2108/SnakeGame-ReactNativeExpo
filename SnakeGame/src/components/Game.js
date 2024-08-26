@@ -114,9 +114,9 @@ const Game = () => {
     function testGameOver(snakeHead) {
         return (
             snakeHead.x < limits.minX ||
-            snakeHead.x < limits.maxX ||
+            snakeHead.x > limits.maxX ||
             snakeHead.y < limits.minY ||
-            snakeHead.y < limits.maxY
+            snakeHead.y > limits.maxY
         );
     }
 
