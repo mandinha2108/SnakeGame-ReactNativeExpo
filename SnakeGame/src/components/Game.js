@@ -27,8 +27,8 @@ const Game = () => {
     const [direction, setDirection] = useState(Direction.Right);
     const [snake, setSnake] = useState(SNAKE_START);
     const [food, setFood] = useState(FOOD_START);
-    const [isGamePaused, setIsGameOver] = useState(false);
-    const [isGameOver, setIsGamePaused] = useState(false);
+    const [isGameOver, setIsGameOver] = useState(false);
+    const [isGamePaused, setIsGamePaused] = useState(false);
     const [score, setScore] = useState(0);
 
 
